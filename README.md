@@ -23,7 +23,7 @@ CREATE TABLE aluno (
 ```
 CREATE TABLE aluno (
   ID_nome SERIAL PRIMARY KEY,
-  nome VARCHAR(50),
+  nome VARCHAR(50) NOT NULL,
   email VARCHAR(100),
   endereco VARCHAR(255)
 ) 
