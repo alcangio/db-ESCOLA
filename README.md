@@ -10,11 +10,6 @@ USE escola;
 
 ## 🧾 Criando uma nova tabela
 - [ ] crie uma tabela chamada ALUNO
-```
-CREATE TABLE aluno (
-)
-```
-
 ### 🔖 Defina os atributos da tabela:
 - [ ] adicione a chave primária de nome ID
 - [ ] adicione um atributo nome do tipo varchar
