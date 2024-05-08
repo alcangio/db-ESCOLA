@@ -39,6 +39,6 @@ add COLUMN telefone VARCHAR(15);
 --inserir valores na tabela ALUNO
 INSERT INTO ALUNO (nome, email, endereco, matricula, telefone) VALUES
   ('João Carlos','Jcarlos@gmail.com', 'Rua 13 de maio', 1234, '(11)7825-4489'),
-  ('José Vitor', 'Jvitor@gmail.com', 'Rua da sSudade', 2345, '(11)7825-6589'),
+  ('José Vitor', 'Jvitor@gmail.com', 'Rua da Saudade', 2345, '(11)7825-6589'),
   ('Paulo André', 'Pandr@gmail.com', 'Rua do Sol', 3456, '(11)7825-4495');
 ```
