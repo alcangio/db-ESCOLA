@@ -1,3 +1,7 @@
+> [!WARNING]
+> Os arquivos complementares à realização da atividade estavam com acesso restrito, portanto não foram considerados.
+
+
 # 🗃 Criando um novo banco de dados
 - [ ] no Sistema de Gerenciamento de Banco de Dados (SGBD) crie um novo banco de dados:
 ```
@@ -16,10 +20,20 @@ USE escola;
 - [ ] adicione um atributo e-mail do tipo varchar
 - [ ] adicione um atributo endereço do tipo varchar
 ```
+--criar tabela
 CREATE TABLE aluno (
   ID_nome SERIAL PRIMARY KEY,
   nome VARCHAR(50) NOT NULL,
   email VARCHAR(100),
   endereco VARCHAR(255)
 ) 
+ 
+--inserir valores na tabela
+INSERT INTO aluno (nome, email, endereco) 
+VALUES ('Giovanna D Alcântara', 
+        'alcangio@protonmail.com', 
+        'Rua 1, 123 bairro qualquer, 31000-000, Belo Horizonte, MG');
+
+--projeta todas as colunas da tabela
+SELECT * FROM aluno;
 ```
