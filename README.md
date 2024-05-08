@@ -1,5 +1,8 @@
-> [!WARNING]
-> Os arquivos complementares à realização da atividade estavam com acesso restrito, portanto não foram considerados.
+> [!NOTE]
+> Tabelas complementares à realização da atividade:
+> [ALUNO e EMPRESTIMO](https://github.com/alcangio/db-ESCOLA/blob/main/Imagem01_Atividade06_BancoDeDadosI.png), 
+> [LIVRO_EMPRESTIMO](https://github.com/alcangio/db-ESCOLA/blob/main/Imagem02_Atividade06_BancoDeDadosI.png) e
+> [LIVRO e SESSÃO](https://github.com/alcangio/db-ESCOLA/blob/main/Imagem03_Atividade06_BancoDeDadosI.png).
 
 
 # 🗃 Criando um novo banco de dados
