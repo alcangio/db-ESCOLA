@@ -23,20 +23,22 @@ USE escola;
 - [ ] adicione um atributo e-mail do tipo varchar
 - [ ] adicione um atributo endereço do tipo varchar
 ```
---criar tabela
-CREATE TABLE aluno (
-  ID_nome SERIAL PRIMARY KEY,
-  nome VARCHAR(50) NOT NULL,
-  email VARCHAR(100),
-  endereco VARCHAR(255)
-) 
- 
---inserir valores na tabela
-INSERT INTO aluno (nome, email, endereco) 
-VALUES ('Giovanna D Alcântara', 
-        'alcangio@protonmail.com', 
-        'Rua 1, 123 bairro qualquer, 31000-000, Belo Horizonte, MG');
+--criar tabela aluno
+CREATE TABLE ALUNO (
+  ID SERIAL PRIMARY KEY,
+  nome VARCHAR(20) NOT NULL,
+  email VARCHAR(20),
+  endereco VARCHAR(50)
+);
 
---projeta todas as colunas da tabela
-SELECT * FROM aluno;
+--incluir atributos na tabela ALUNO conforme tabela complementar
+ALTER table aluno
+add COLUMN matricula VARCHAR(5) NOT NULL,
+add COLUMN telefone VARCHAR(15);
+
+--inserir valores na tabela ALUNO
+INSERT INTO ALUNO (nome, email, endereco, matricula, telefone) VALUES
+  ('João Carlos','Jcarlos@gmail.com', 'Rua 13 de maio', 1234, '(11)7825-4489'),
+  ('José Vitor', 'Jvitor@gmail.com', 'Rua da sSudade', 2345, '(11)7825-6589'),
+  ('Paulo André', 'Pandr@gmail.com', 'Rua do Sol', 3456, '(11)7825-4495');
 ```
