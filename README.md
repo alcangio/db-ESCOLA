@@ -46,4 +46,5 @@ INSERT INTO ALUNO (nome, email, endereco, matricula, telefone) VALUES
 ```
 SELECT * FROM ALUNO
 ```
-![image](https://github.com/alcangio/db-ESCOLA/assets/142796669/e9a2e3f1-c3ed-48b9-a82e-ab2027e08117)
+![image](https://github.com/alcangio/db-ESCOLA/assets/142796669/b3172c26-48fe-4288-bdf6-1418e2670781)
+
