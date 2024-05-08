@@ -32,7 +32,7 @@ CREATE TABLE ALUNO (
 );
 
 --incluir atributos na tabela ALUNO conforme tabela complementar
-ALTER table aluno
+ALTER table ALUNO
 add COLUMN matricula VARCHAR(5) NOT NULL,
 add COLUMN telefone VARCHAR(15);
 
@@ -42,3 +42,8 @@ INSERT INTO ALUNO (nome, email, endereco, matricula, telefone) VALUES
   ('José Vitor', 'Jvitor@gmail.com', 'Rua da Saudade', 2345, '(11)7825-6589'),
   ('Paulo André', 'Pandr@gmail.com', 'Rua do Sol', 3456, '(11)7825-4495');
 ```
+### 📽 Projeção de todos os atributos da tabela ALUNO
+```
+SELECT * FROM ALUNO
+```
+![image](https://github.com/alcangio/db-ESCOLA/assets/142796669/e9a2e3f1-c3ed-48b9-a82e-ab2027e08117)
